@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blood Bank Management System
+
+A full-stack web application to manage blood bank operations with three separate user portals.
+
+## Live Demo
+[View Live App](https://rnpbloodbank.vercel.app/)
+
+## Features
+
+### Donor Portal
+- Register as blood donor
+- View donation history
+- Track donation eligibility
+
+### Receiver Portal
+- Request blood by blood group
+- View available inventory
+- Track request status
+
+### Admin Portal
+- Manage donors and receivers
+- Monitor blood inventory
+- Approve/reject blood requests
+- View complete transaction history
+
+## Tech Stack
+- **Frontend:** Next.js 14, TypeScript, Tailwind CSS
+- **Backend:** Supabase (PostgreSQL)
+- **Auth:** Supabase Auth
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repo
+\`\`\`bash
+git clone https://github.com/rupam-n-patil/blood-bank-system.git
+\`\`\`
 
-```bash
+2. Install dependencies
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Create `.env.local` file
+\`\`\`
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+\`\`\`
+
+4. Run locally
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
+<img width="1918" height="1078" alt="Screenshot 2026-06-18 140148" src="https://github.com/user-attachments/assets/7f6ddfab-8bb0-4ed3-a294-0b9686f7bc85" />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<img width="1918" height="1078" alt="Screenshot 2026-06-18 140219" src="https://github.com/user-attachments/assets/bca6e8e5-0ec1-4ddb-b05c-7fa2a6fcc11b" />
 
-## Learn More
+<img width="1900" height="1078" alt="Screenshot 2026-06-18 140243" src="https://github.com/user-attachments/assets/7c301fbe-f188-4c02-a691-509665647772" />
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+Rupam Patil — [LinkedIn](https://www.linkedin.com/in/rupam-patil-271555391/)
